@@ -1,0 +1,187 @@
+- BackEnd
+  - .env
+  - .env.example
+  - .gitignore
+  - .prettierrc.json
+  - .vercel
+    - cache
+    - project.json
+    - README.txt
+  - .yarnrc
+  - docker-compose.yml
+  - Dockerfile
+  - eslint.config.mjs
+  - media
+    - photo_2024-12-12_11-23-43.jpg
+  - next-env.d.ts
+  - next.config.mjs
+  - package-lock.json
+  - package.json
+  - pnpm-lock.yaml
+  - README.md
+  - samhar-backend
+  - src
+    - api
+      - auth.ts
+      - index.ts
+      - mangaModel.ts
+      - notificationsModel.ts
+    - app
+      - (payload)
+        - admin
+          - importMap.js
+          - [[...segments]]
+            - not-found.tsx
+            - page.tsx
+        - api
+          - graphql
+            - route.ts
+          - graphql-playground
+            - route.ts
+          - [...slug]
+            - route.ts
+        - custom.scss
+        - layout.tsx
+      - my-route
+        - route.ts
+    - collections
+      - Manga.ts
+      - Media.ts
+      - Notifications.ts
+      - Users.ts
+    - migrations
+      - 20241221_130358_initial.json
+      - 20241221_130358_initial.ts
+      - index.ts
+    - payload-types.ts
+    - payload.config.ts
+  - tsconfig.json
+- FrontEnd
+  - .env
+  - .gitattributes
+  - .gitignore
+  - dist
+    - assets
+      - 0 cover-q7RdCoEJ.jpg
+      - 1 copy-B1tJydZa.jp
+      - VEC-SAV-273-20-_Converted_-BdPnbVjT.jpg
+    - index.html
+    - vite.svg
+    - _redirects
+  - eslint.config.js
+  - index.html
+  - package-lock.json
+  - package.json
+  - postcss.config.js
+  - public
+    - vite.svg
+    - _redirects
+  - README.md
+  - src
+    - App.css
+    - App.tsx
+    - assets
+      - c 1.png
+      - c 2.png
+      - icon.svg
+      - l 1.png
+      - l 2.png
+      - l 3.png
+      - l 4.png
+      - l 5.png
+      - l 6.png
+      - l 7.png
+      - logo.svg
+      - Manga.jpg
+      - q 6.png
+      - q-12.png
+      - q-13.png
+      - q5.png
+      - react.svg
+      - VEC-SAV-273-20-[Converted].jpg
+      - videos
+        - Cover artwork 16-9 ratio.mp4
+        - Cover artwork 16-9 ratio.webm
+        - Sequence 01_1.webm
+    - components
+      - About.tsx
+      - AdminDashboard.tsx
+      - BackToTop.tsx
+      - Card.tsx
+      - Cards.tsx
+      - Contact.tsx
+      - Footer.tsx
+      - Hero.tsx
+      - MangaCard.tsx
+      - Nav.tsx
+      - NotificationBell.tsx
+      - UserAvatar.tsx
+      - UserDashboard.tsx
+    - context
+      - AuthContext.tsx
+      - NotificationContext.tsx
+    - data
+      - webtoonsImages.tsx
+    - hooks
+      - useAuth.ts
+    - index.css
+    - main.tsx
+    - manga
+      - hero
+        - CH
+          - 1 copy.jpg
+          - 2 copy.jpg
+          - 3 copy.jpg
+          - 4 copy.jpg
+          - 5 copy.jpg
+          - 6 copy.jpg
+          - 7 copy.jpg
+          - 8 copy.jpg
+          - 9 copy.jpg
+        - ch1
+          - #1.jpg
+          - #10.jpg
+          - #8.jpg
+          - #9.jpg
+          - cover 2 edited.jpg
+          - COVER(1) نسخة الطباعة.jpg
+          - COVER(1).jpg
+          - COVER(2) نسخة الطباعة.jpg
+        - CH2
+          - #0.jpg
+          - #1.jpg
+          - #7.jpg
+          - #8.jpg
+          - #9.jpg
+      - Kanoon - 2B English Translation
+        - 0.jpg
+        - 1.jpg
+        - 10.jpg
+        - 11.jpg
+        - 12.jpg
+        - 13.jpg
+        - 14.jpg
+        - 15.jpg
+        - 16.jpg
+        - 17.jpg
+        - 18.jpg
+    
+    - pages
+      - CreateManga.tsx
+      - Login.tsx
+      - Main.tsx
+      - MangaDetails.tsx
+      - MangaViewer.tsx
+      - Profile.tsx
+      - Signup.tsx
+    - types.ts
+    - utils
+      - api.ts
+      - auth.ts
+      - formatters.ts
+    - vite-env.d.ts
+  - tailwind.config.js
+  - tsconfig.app.json
+  - tsconfig.json
+  - tsconfig.node.json
+  - vite.config.ts
